@@ -1,0 +1,515 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Tailwind Starter Template</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="/dist/styles.css">
+</head>
+
+<body class="bg-bad-about-grey">
+  <!-- Header -->
+  <div class="shadow-bad-about h-24 bg-white flex justify-between items-center">
+    <div class="px-4 xl:px-8 md:px-8 lg:px-8 sm:px-8 md:w-2/3 lg:w-3/4 xl:w-4/5 flex items-center">
+      <div class="flex items-center mr-6">
+        <img src="https://bad-about.com/img/LogoOnly.png" class="h-16 w-16 mr-2" alt="">
+        <img src="https://bad-about.com/img/LogoText.png" class="h-16 w-32" alt="">
+      </div>
+      <div class="hidden lg:block xl:block">
+        <div class="flex items-center relative mr-4">
+          <div class="pointer-events-none absolute pin-y pin-l pl-3 flex items-center">
+            <svg class="fill-current pointer-events-none text-grey-dark w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+              <path d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"></path>
+            </svg>
+          </div>
+          <input type="text" class="w-80 rounded-lg bg-bad-about-grey text-grey-darker font-medium px-10 py-4" placeholder="Search Topics">
+        </div>
+      </div>
+      <div class="hidden lg:block sm:block md:block xl:block">
+        <a href="#" class="flex items-center text-grey-darker">
+          <svg class="fill-current text-grey-darker w-8 h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path class="heroicon-ui" d="M17 11a1 1 0 0 1 0 2h-4v4a1 1 0 0 1-2 0v-4H7a1 1 0 0 1 0-2h4V7a1 1 0 0 1 2 0v4h4z" />
+          </svg>
+          <span class="text-lg">New Topic</span>
+        </a>
+      </div>
+    </div>
+    <div class="px-4 xl:px-8 md:px-8 lg:px-8 sm:px-8 md:w-1/3 lg:w-1/4 xl:w-1/5 items-center flex justify-end">
+      <div class="mr-6">
+        <svg class="fill-current text-grey-darker h-8 w-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path class="heroicon-ui" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
+          />
+        </svg>
+      </div>
+      <button class="hidden md:block lg:block xl:block border-2 rounded-lg border-grey py-3 px-6 text-grey-darker">Sign in</button>
+    </div>
+  </div>
+
+  <!-- Content  -->
+  <div class="container mx-auto py-10">
+    <div class="lg:flex xl:flex sm:flex md:flex">
+      <div class="w-full lg:w-1/4 xl:w-1/4 sm:w-1/4 md:w-1/4 flex justify-end">
+        <h1 class="text-4xl font-black">Apple iPhoneX</h1>
+      </div>
+
+      <div class="w-full lg:w-3/4 xl:w-3/4 sm:w-3/4 md:w-3/4 flex justify-between">
+        <a href="#" class="flex items-center ml-4">
+          <svg class="fill-current text-grey-dark h-6 w-6 mr-2" focusable="false" viewBox="0 0 24 24">
+            <path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z"></path>
+          </svg>
+          <span class="text-grey-darker font-medium text-lg">Share Topic</span>
+        </a>
+        <button class="bg-orange py-4 px-6 text-orange-darker rounded-lg font-bold text-lg">NEW POST</button>
+      </div>
+    </div>
+
+    <div class="md:flex lg:flex xl:flex mt-6">
+      <div class="hidden md:block lg:block xl:block w-1/4">
+        <ul class="ml-2 px-6 w-full">
+          <li class="w-full flex items-center justify-between border-l-4 border-orange bg-white py-3">
+            <a href="#" class="px-4 text-black">Facts</a>
+            <span class="px-2 text-grey-darker">4</span>
+          </li>
+          <li class="py-3 w-full flex items-center justify-between">
+            <a href="#" class="px-4 text-grey-darker">Opinions</a>
+            <span class="px-2 text-grey-darker">2</span>
+          </li>
+          <li class="py-3 w-full flex items-center justify-between">
+            <a href="#" class="px-4 text-grey-darker">Experiences</a>
+            <span class="px-2 text-grey-darker">7</span>
+          </li>
+        </ul>
+
+        <div class="px-12 py-8 flex">
+          <span class="mr-2 rounded-full border-2 border-grey-darker w-8 h-6 text-center text-sm text-grey-darker flex justify-center items-center align-top">?</span>
+          <span class="font-hairline text-sm mr-1 align-bottom italic">How to interpret this information.</span>
+          </span>
+        </div>
+      </div>
+
+      <div class="w-full xl:w-3/4 lg:w-3/4 md:w-3/4">
+
+        <!-- Facts -->
+        <div class="bg-white rounded shadow-lg">
+          <div class="px-8 py-6 border-b-2">
+            <h3 class="flex items-center">
+              <span class="font-medium text-grey-darker">Facts</span>
+              <span class="ml-6 rounded-full border-2 border-grey w-6 h-6 text-center text-sm text-grey flex justify-center items-center align-top">?</span>
+            </h3>
+          </div>
+
+          <!-- Informations Content -->
+          <div class="px-8 py-8 flex border-b-2">
+            <div class="w-2/3 pr-10">
+              <p class="text-grey-darker text-lg font-medium">Apple are charging higher than normal rates for repairing the screen ($279)
+                <a href="#" class="ml-2 text-grey-dark underline text-sm font-bold">Show more</a>
+              </p>
+              <div class="py-3 flex items-center">
+                <span class="text-sm text-grey">Charlotte J . Nov 15,2017</span>
+                <svg class="fill-current text-grey-dark h-6 w-6 ml-4" focusable="false" viewBox="0 0 24 24">
+                  <path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z"></path>
+                </svg>
+                <svg class="fill-current text-grey-dark h-6 w-6 ml-4" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M14.4 6L14 4H5v17h2v-7h5.6l.4 2h7V6z"></path>
+                </svg>
+              </div>
+            </div>
+            <div class="w-1/3 flex flex-col md:flex-row lg:flex-row xl:flex-row justify-end">
+
+              <div class="px-4 md:px-12 lg:px-12 xl:px-12">
+                <p class="ml-3 font-bold text-sm text-grey-dark">IMPORTANT</p>
+                <div class="flex items-center">
+                  <div class="flex flex-col">
+                    <svg class="fill-current h-10 w-10 text-grey-dark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                      <path class="heroicon-ui" d="M8.7 14.7a1 1 0 0 1-1.4-1.4l4-4a1 1 0 0 1 1.4 0l4 4a1 1 0 0 1-1.4 1.4L12 11.42l-3.3 3.3z" />
+                    </svg>
+                    <svg class="fill-current h-10 w-10 text-grey-dark -mt-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                      <path class="heroicon-ui" d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z" />
+                    </svg>
+                  </div>
+                  <span class="text-black text-2xl font-hairline">51%</span>
+                </div>
+              </div>
+
+              <div class="px-4">
+                <p class="ml-3 font-bold text-sm text-grey-dark">CORRECT</p>
+                <div class="flex items-center">
+                  <div class="flex flex-col">
+                    <svg class="fill-current h-10 w-10 text-grey-dark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                      <path class="heroicon-ui" d="M8.7 14.7a1 1 0 0 1-1.4-1.4l4-4a1 1 0 0 1 1.4 0l4 4a1 1 0 0 1-1.4 1.4L12 11.42l-3.3 3.3z" />
+                    </svg>
+                    <svg class="fill-current h-10 w-10 text-grey-dark -mt-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                      <path class="heroicon-ui" d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z" />
+                    </svg>
+                  </div>
+                  <span class="text-black text-2xl font-hairline">64%</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+          <div class="px-8 py-8 flex border-b-2">
+            <div class="w-2/3 pr-10">
+              <p class="text-grey-darker text-lg font-medium">There is a larger than usual camera bump measuring 24.19mm long x11.7 wide x1.22 mm to accommodate the high
+                resolution camera
+                <a href="#" class="ml-2 text-grey-dark underline text-sm font-bold">Show more</a>
+              </p>
+              <div class="py-3 flex items-center">
+                <span class="text-sm text-grey">Jess E . Nov 15,2017</span>
+                <svg class="fill-current text-grey-dark h-6 w-6 ml-4" focusable="false" viewBox="0 0 24 24">
+                  <path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z"></path>
+                </svg>
+                <svg class="fill-current text-grey-dark h-6 w-6 ml-4" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M14.4 6L14 4H5v17h2v-7h5.6l.4 2h7V6z"></path>
+                </svg>
+              </div>
+            </div>
+            <div class="w-1/3 flex flex-col md:flex-row lg:flex-row xl:flex-row flex justify-end">
+
+              <div class="px-4 md:px-12 lg:px-12 xl:px-12">
+                <p class="ml-3 font-bold text-sm text-grey-dark">IMPORTANT</p>
+                <div class="flex items-center">
+                  <div class="flex flex-col">
+                    <svg class="fill-current h-10 w-10 text-grey-dark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                      <path class="heroicon-ui" d="M8.7 14.7a1 1 0 0 1-1.4-1.4l4-4a1 1 0 0 1 1.4 0l4 4a1 1 0 0 1-1.4 1.4L12 11.42l-3.3 3.3z" />
+                    </svg>
+                    <svg class="fill-current h-10 w-10 text-grey-dark -mt-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                      <path class="heroicon-ui" d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z" />
+                    </svg>
+                  </div>
+                  <span class="text-black text-2xl font-hairline">72%</span>
+                </div>
+              </div>
+
+              <div class="px-4">
+                <p class="ml-3 font-bold text-sm text-grey-dark">CORRECT</p>
+                <div class="flex items-center">
+                  <div class="flex flex-col">
+                    <svg class="fill-current h-10 w-10 text-grey-dark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                      <path class="heroicon-ui" d="M8.7 14.7a1 1 0 0 1-1.4-1.4l4-4a1 1 0 0 1 1.4 0l4 4a1 1 0 0 1-1.4 1.4L12 11.42l-3.3 3.3z" />
+                    </svg>
+                    <svg class="fill-current h-10 w-10 text-grey-dark -mt-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                      <path class="heroicon-ui" d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z" />
+                    </svg>
+                  </div>
+                  <span class="text-black text-2xl font-hairline">86%</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="px-8 py-8 flex border-b-2">
+            <div class="w-2/3 pr-10">
+              <p class="text-grey-darker text-lg font-medium">There is a larger than usual camera bump measuring 24.19mm long x11.7 wide x1.22 mm to accommodate the high
+                resolution camera
+                <a href="#" class="ml-2 text-grey-dark underline text-sm font-bold">Show more</a>
+              </p>
+              <div class="py-3 flex items-center">
+                <span class="text-sm text-grey">Jess E . Nov 15,2017</span>
+                <svg class="fill-current text-grey-dark h-6 w-6 ml-4" focusable="false" viewBox="0 0 24 24">
+                  <path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z"></path>
+                </svg>
+                <svg class="fill-current text-grey-dark h-6 w-6 ml-4" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M14.4 6L14 4H5v17h2v-7h5.6l.4 2h7V6z"></path>
+                </svg>
+              </div>
+            </div>
+            <div class="w-1/3 flex flex-col md:flex-row lg:flex-row xl:flex-row flex justify-end">
+
+              <div class="px-4 md:px-12 lg:px-12 xl:px-12">
+                <p class="ml-3 font-bold text-sm text-grey-dark">IMPORTANT</p>
+                <div class="flex items-center">
+                  <div class="flex flex-col">
+                    <svg class="fill-current h-10 w-10 text-grey-dark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                      <path class="heroicon-ui" d="M8.7 14.7a1 1 0 0 1-1.4-1.4l4-4a1 1 0 0 1 1.4 0l4 4a1 1 0 0 1-1.4 1.4L12 11.42l-3.3 3.3z" />
+                    </svg>
+                    <svg class="fill-current h-10 w-10 text-grey-dark -mt-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                      <path class="heroicon-ui" d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z" />
+                    </svg>
+                  </div>
+                  <span class="text-black text-2xl font-hairline">72%</span>
+                </div>
+              </div>
+
+              <div class="px-4">
+                <p class="ml-3 font-bold text-sm text-grey-dark">CORRECT</p>
+                <div class="flex items-center">
+                  <div class="flex flex-col">
+                    <svg class="fill-current h-10 w-10 text-grey-dark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                      <path class="heroicon-ui" d="M8.7 14.7a1 1 0 0 1-1.4-1.4l4-4a1 1 0 0 1 1.4 0l4 4a1 1 0 0 1-1.4 1.4L12 11.42l-3.3 3.3z" />
+                    </svg>
+                    <svg class="fill-current h-10 w-10 text-grey-dark -mt-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                      <path class="heroicon-ui" d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z" />
+                    </svg>
+                  </div>
+                  <span class="text-black text-2xl font-hairline">86%</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="px-8 py-8 flex border-b-2">
+            <div class="w-2/3 pr-10">
+              <p class="text-grey-darker text-lg font-medium">There is a larger than usual camera bump measuring 24.19mm long x11.7 wide x1.22 mm to accommodate the high
+                resolution camera
+                <a href="#" class="ml-2 text-grey-dark underline text-sm font-bold">Show more</a>
+              </p>
+              <div class="py-3 flex items-center">
+                <span class="text-sm text-grey">Jess E . Nov 15,2017</span>
+                <svg class="fill-current text-grey-dark h-6 w-6 ml-4" focusable="false" viewBox="0 0 24 24">
+                  <path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z"></path>
+                </svg>
+                <svg class="fill-current text-grey-dark h-6 w-6 ml-4" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M14.4 6L14 4H5v17h2v-7h5.6l.4 2h7V6z"></path>
+                </svg>
+              </div>
+            </div>
+            <div class="w-1/3 flex flex-col md:flex-row lg:flex-row xl:flex-row flex justify-end">
+
+              <div class="px-4 md:px-12 lg:px-12 xl:px-12">
+                <p class="ml-3 font-bold text-sm text-grey-dark">IMPORTANT</p>
+                <div class="flex items-center">
+                  <div class="flex flex-col">
+                    <svg class="fill-current h-10 w-10 text-grey-dark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                      <path class="heroicon-ui" d="M8.7 14.7a1 1 0 0 1-1.4-1.4l4-4a1 1 0 0 1 1.4 0l4 4a1 1 0 0 1-1.4 1.4L12 11.42l-3.3 3.3z" />
+                    </svg>
+                    <svg class="fill-current h-10 w-10 text-grey-dark -mt-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                      <path class="heroicon-ui" d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z" />
+                    </svg>
+                  </div>
+                  <span class="text-black text-2xl font-hairline">72%</span>
+                </div>
+              </div>
+
+              <div class="px-4">
+                <p class="ml-3 font-bold text-sm text-grey-dark">CORRECT</p>
+                <div class="flex items-center">
+                  <div class="flex flex-col">
+                    <svg class="fill-current h-10 w-10 text-grey-dark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                      <path class="heroicon-ui" d="M8.7 14.7a1 1 0 0 1-1.4-1.4l4-4a1 1 0 0 1 1.4 0l4 4a1 1 0 0 1-1.4 1.4L12 11.42l-3.3 3.3z" />
+                    </svg>
+                    <svg class="fill-current h-10 w-10 text-grey-dark -mt-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                      <path class="heroicon-ui" d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z" />
+                    </svg>
+                  </div>
+                  <span class="text-black text-2xl font-hairline">86%</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+          <div class="px-8 py-8 flex items-center justify-center">
+            <h4 class="font-bold text-grey-dark">LOAD MORE</h4>
+          </div>
+
+
+
+
+        </div>
+
+        <!-- Optinions -->
+        <div class="bg-white mt-10 rounded shadow-lg">
+          <div class="px-8 py-6 border-b-2">
+            <h3 class="flex items-center">
+              <span class="font-medium text-grey-darker">Opinions</span>
+              <span class="ml-6 rounded-full border-2 border-grey w-6 h-6 text-center text-sm text-grey flex justify-center items-center align-top">?</span>
+            </h3>
+          </div>
+
+          <!-- Informations Content -->
+          <div class="px-8 py-8 flex border-b-2">
+            <div class="w-2/3 pr-10">
+              <p class="text-grey-darker text-lg font-medium">The phone is difficult to repair yourself.
+                <a href="#" class="ml-2 text-grey-dark underline text-sm font-bold">Show more</a>
+              </p>
+              <div class="py-3 flex items-center">
+                <span class="text-sm text-grey">Taylor L . Nov 15,2017</span>
+                <svg class="fill-current text-grey-dark h-6 w-6 ml-4" focusable="false" viewBox="0 0 24 24">
+                  <path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z"></path>
+                </svg>
+                <svg class="fill-current text-grey-dark h-6 w-6 ml-4" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M14.4 6L14 4H5v17h2v-7h5.6l.4 2h7V6z"></path>
+                </svg>
+              </div>
+            </div>
+            <div class="w-1/3 flex flex-col md:flex-row lg:flex-row xl:flex-row flex justify-end">
+
+              <div class="px-4 md:px-12 lg:px-12 xl:px-12">
+                <p class="ml-3 font-bold text-sm text-grey-dark">IMPORTANT</p>
+                <div class="flex items-center">
+                  <div class="flex flex-col">
+                    <svg class="fill-current h-10 w-10 text-grey-dark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                      <path class="heroicon-ui" d="M8.7 14.7a1 1 0 0 1-1.4-1.4l4-4a1 1 0 0 1 1.4 0l4 4a1 1 0 0 1-1.4 1.4L12 11.42l-3.3 3.3z" />
+                    </svg>
+                    <svg class="fill-current h-10 w-10 text-grey-dark -mt-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                      <path class="heroicon-ui" d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z" />
+                    </svg>
+                  </div>
+                  <span class="text-black text-2xl font-hairline">0%</span>
+                </div>
+              </div>
+
+              <div class="px-4">
+                <p class="ml-3 font-bold text-sm text-grey-dark">CORRECT</p>
+                <div class="flex items-center">
+                  <div class="flex flex-col">
+                    <svg class="fill-current h-10 w-10 text-grey-dark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                      <path class="heroicon-ui" d="M8.7 14.7a1 1 0 0 1-1.4-1.4l4-4a1 1 0 0 1 1.4 0l4 4a1 1 0 0 1-1.4 1.4L12 11.42l-3.3 3.3z" />
+                    </svg>
+                    <svg class="fill-current h-10 w-10 text-grey-dark -mt-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                      <path class="heroicon-ui" d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z" />
+                    </svg>
+                  </div>
+                  <span class="text-black text-2xl font-hairline">34%</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+          <div class="px-8 py-8 flex border-b-2">
+            <div class="w-2/3 pr-10">
+              <p class="text-grey-darker text-lg font-medium">There is a larger than usual camera bump measuring 24.19mm long x11.7 wide x1.22 mm to accommodate the high
+                resolution camera
+                <a href="#" class="ml-2 text-grey-dark underline text-sm font-bold">Show more</a>
+              </p>
+              <div class="py-3 flex items-center">
+                <span class="text-sm text-grey">Jess E . Nov 15,2017</span>
+                <svg class="fill-current text-grey-dark h-6 w-6 ml-4" focusable="false" viewBox="0 0 24 24">
+                  <path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z"></path>
+                </svg>
+                <svg class="fill-current text-grey-dark h-6 w-6 ml-4" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M14.4 6L14 4H5v17h2v-7h5.6l.4 2h7V6z"></path>
+                </svg>
+              </div>
+            </div>
+            <div class="w-1/3 flex flex-col md:flex-row lg:flex-row xl:flex-row flex justify-end">
+              <div class="px-4 md:px-12 lg:px-12 xl:px-12">
+                <p class="ml-3 font-bold text-sm text-grey-dark">IMPORTANT</p>
+                <div class="flex items-center">
+                  <div class="flex flex-col">
+                    <svg class="fill-current h-10 w-10 text-grey-dark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                      <path class="heroicon-ui" d="M8.7 14.7a1 1 0 0 1-1.4-1.4l4-4a1 1 0 0 1 1.4 0l4 4a1 1 0 0 1-1.4 1.4L12 11.42l-3.3 3.3z" />
+                    </svg>
+                    <svg class="fill-current h-10 w-10 text-grey-dark -mt-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                      <path class="heroicon-ui" d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z" />
+                    </svg>
+                  </div>
+                  <span class="text-black text-2xl font-hairline">72%</span>
+                </div>
+              </div>
+
+              <div class="px-4">
+                <p class="ml-3 font-bold text-sm text-grey-dark">CORRECT</p>
+                <div class="flex items-center">
+                  <div class="flex flex-col">
+                    <svg class="fill-current h-10 w-10 text-grey-dark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                      <path class="heroicon-ui" d="M8.7 14.7a1 1 0 0 1-1.4-1.4l4-4a1 1 0 0 1 1.4 0l4 4a1 1 0 0 1-1.4 1.4L12 11.42l-3.3 3.3z" />
+                    </svg>
+                    <svg class="fill-current h-10 w-10 text-grey-dark -mt-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                      <path class="heroicon-ui" d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z" />
+                    </svg>
+                  </div>
+                  <span class="text-black text-2xl font-hairline">86%</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+          <div class="px-8 py-8 flex items-center justify-center">
+            <h4 class="font-bold text-grey-dark">LOAD MORE</h4>
+          </div>
+
+
+
+
+        </div>
+
+        <!-- Experiences -->
+        <div class="bg-white mt-10 rounded shadow-lg">
+          <div class="px-8 py-6 border-b-2">
+            <h3 class="flex items-center">
+              <span class="font-medium text-grey-darker">Experiences</span>
+              <span class="ml-6 rounded-full border-2 border-grey w-6 h-6 text-center text-sm text-grey flex justify-center items-center align-top">?</span>
+            </h3>
+          </div>
+
+          <!-- Informations Content -->
+          <div class="px-8 py-8 flex border-b-2">
+            <div class="w-2/3 pr-10">
+              <p class="text-grey-darker text-lg font-medium">The phone is difficult to repair yourself.
+                <a href="#" class="ml-2 text-grey-dark underline text-sm font-bold">Show more</a>
+              </p>
+              <div class="py-3 flex items-center">
+                <span class="text-sm text-grey">Taylor L . Nov 15,2017</span>
+                <svg class="fill-current text-grey-dark h-6 w-6 ml-4" focusable="false" viewBox="0 0 24 24">
+                  <path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z"></path>
+                </svg>
+                <svg class="fill-current text-grey-dark h-6 w-6 ml-4" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M14.4 6L14 4H5v17h2v-7h5.6l.4 2h7V6z"></path>
+                </svg>
+              </div>
+            </div>
+            <div class="w-1/3 flex flex-col md:flex-row lg:flex-row xl:flex-row flex justify-end">
+
+              <div class="px-4 md:px-12 lg:px-12 xl:px-12">
+                <p class="ml-3 font-bold text-sm text-grey-dark">IMPORTANT</p>
+                <div class="flex items-center">
+                  <div class="flex flex-col">
+                    <svg class="fill-current h-10 w-10 text-grey-dark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                      <path class="heroicon-ui" d="M8.7 14.7a1 1 0 0 1-1.4-1.4l4-4a1 1 0 0 1 1.4 0l4 4a1 1 0 0 1-1.4 1.4L12 11.42l-3.3 3.3z" />
+                    </svg>
+                    <svg class="fill-current h-10 w-10 text-grey-dark -mt-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                      <path class="heroicon-ui" d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z" />
+                    </svg>
+                  </div>
+                  <span class="text-black text-2xl font-hairline">0%</span>
+                </div>
+              </div>
+
+              <div class="px-4">
+                <p class="ml-3 font-bold text-sm text-grey-dark">CORRECT</p>
+                <div class="flex items-center">
+                  <div class="flex flex-col">
+                    <svg class="fill-current h-10 w-10 text-grey-dark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                      <path class="heroicon-ui" d="M8.7 14.7a1 1 0 0 1-1.4-1.4l4-4a1 1 0 0 1 1.4 0l4 4a1 1 0 0 1-1.4 1.4L12 11.42l-3.3 3.3z" />
+                    </svg>
+                    <svg class="fill-current h-10 w-10 text-grey-dark -mt-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                      <path class="heroicon-ui" d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z" />
+                    </svg>
+                  </div>
+                  <span class="text-black text-2xl font-hairline">34%</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+
+          <div class="px-8 py-8 flex items-center justify-center">
+            <h4 class="font-bold text-grey-dark">LOAD MORE</h4>
+          </div>
+
+
+
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
